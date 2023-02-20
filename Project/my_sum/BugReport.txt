@@ -1,0 +1,18 @@
+**Bug Report**
+
+* I tried to use unittest like they did in the tutorial, but kept getting this error. I used pytest but kept getting an error as well. 
+
+
+* the unittest error
+ERROR: Could not find a version that satisfies the requirement unittest (from versions: none)
+ERROR: No matching distribution found for unittest
+
+
+
+** the pytest error **
+
+test.py:5: in <module>
+    class TestSum(pytest.TestCase):
+C:\Python\Lib\site-packages\pytest\__init__.py:169: in __getattr__
+    raise AttributeError(f"module {__name__} has no attribute {name}")
+E   AttributeError: module pytest has no attribute TestCase
